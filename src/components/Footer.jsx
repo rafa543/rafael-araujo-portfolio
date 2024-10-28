@@ -3,23 +3,23 @@ import { ButtonPrimary } from "./Button";
 const Footer = () => {
   const sitemap = [
     {
-      label: "Home",
-      href: "#home",
+      label: "Início",
+      href: "#inicio",
     },
     {
-      label: "About",
-      href: "#about",
+      label: "Sobre",
+      href: "#sobre",
     },
     {
-      label: "Work",
-      href: "#work",
+      label: "Trabalho",
+      href: "#trabalho",
     },
     {
-      label: "Reviews",
-      href: "#reviews",
+      label: "Avaliações",
+      href: "#avaliações",
     },
     {
-      label: "Contact me",
+      label: "Entre em contato comigo",
       href: "#contact",
     },
   ];
@@ -27,24 +27,24 @@ const Footer = () => {
   const socials = [
     {
       label: "GitHub",
-      href: "https://www.github.com/codewithsadee-org",
+      href: "https://github.com/rafa543",
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/codewithsadee",
+      href: "https://www.linkedin.com/in/rafael-araujo-abreu",
     },
-    {
-      label: "Twitter X",
-      href: "https://x.com/codewithsadee_",
-    },
-    {
-      label: "Instagram",
-      href: "https://www.instagram.com/codewithsadee",
-    },
-    {
-      label: "CodePen",
-      href: "https://codepen.io/codewithsadee",
-    },
+    // {
+    //   label: "Twitter X",
+    //   href: "https://x.com/codewithsadee_",
+    // },
+    // {
+    //   label: "Instagram",
+    //   href: "https://www.instagram.com/codewithsadee",
+    // },
+    // {
+    //   label: "CodePen",
+    //   href: "https://codepen.io/codewithsadee",
+    // },
   ];
 
   return (
@@ -53,11 +53,11 @@ const Footer = () => {
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
             <h2 className="headline-1 mb-8 lg:max-w[12ch] reveal-up">
-              Let&apos;s work together today!
+              Vamos trabalhar juntos hoje!
             </h2>
             <ButtonPrimary
-              href="mailto:codewithsadee@gmail.com"
-              label="Start project"
+              href="mailto:rafa123839@gmail.com"
+              label="Iniciar projeto"
               icon="chevron_right"
               classes="reveal-up"
             />
@@ -65,7 +65,7 @@ const Footer = () => {
 
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
             <div>
-              <p className="mb-2 reveal-up">Sitemap</p>
+              <p className="mb-2 reveal-up">Mapa do site</p>
               <ul>
                 {sitemap.map(({ label, href }, key) => (
                   <li key={key}>
@@ -110,7 +110,7 @@ const Footer = () => {
           </a>
 
           <p className="text-zinc-500 text-sm reveal-up">
-            &copy; 2024 <span className="text-zinc-200">codewithsadee</span>
+            &copy; 2024 <span className="text-zinc-200">rafaelaraujo</span>
           </p>
         </div>
       </div>

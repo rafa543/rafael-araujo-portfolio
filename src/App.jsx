@@ -10,6 +10,7 @@ import { ReactLenis } from "lenis/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import Experience from "./components/Experience";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -40,6 +41,7 @@ const App = () => {
         <Hero />
         <About />
         <Skill />
+        <Experience />
         <Work />
         <Review />
         <Contact />

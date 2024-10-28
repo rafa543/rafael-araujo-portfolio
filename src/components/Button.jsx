@@ -1,9 +1,15 @@
 import PropTypes from "prop-types";
 
-const ButtonPrimary = ({ href, target = "_self", label, icon, classes }) => {
-  if (href) {
+const ButtonPrimary = ({ href, target = "_blank", label, icon, classes }) => {
+  const isDownloadable = href && href.includes(".");
+  if (isDownloadable) {
     return (
-      <a href={href} target={target} className={"btn btn-primary " + classes}>
+      <a
+        download="Currículo Rafael Araujo.pdf"
+        href={href}
+        target={target}
+        className={"btn btn-primary " + classes}
+      >
         {label}
         {icon ? (
           <span className="material-symbols-rounded" aria-hidden="true">

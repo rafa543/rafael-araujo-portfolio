@@ -2,13 +2,13 @@ import { ButtonOutline, ButtonPrimary } from "./Button";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-28 lg:pt-36">
+    <section id="inicio" className="pt-28 lg:pt-36">
       <div className="container items-center lg:grid lg:grid-cols-2 lg-gap-10">
         <div>
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="/src/assets/images/avatar-1.jpg"
+                src="https://media.licdn.com/dms/image/v2/D4E03AQG7vO_vNUGbFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728056309997?e=1735776000&v=beta&t=WbNdqprFulFTCVS8XPUTTp71M0Xt-VXXgJQdLFE2Meo"
                 width={40}
                 height={40}
                 alt="Henry clark portrait"
@@ -19,17 +19,17 @@ const Hero = () => {
               <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
-              Available for work
+              Disponível
             </div>
           </div>
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Building Scalable Modern Websites for the Future
+            Desenvolvedor Full Stack
           </h2>
           <div className="flex items-center gap-3">
-            <ButtonPrimary label="Download CV" icon="download" />
+            <ButtonPrimary label="Download CV" icon="download" href="/cv.pdf" />
             <ButtonOutline
-              href="#about"
-              label="Scroll down"
+              href="#sobre"
+              label="Ir para baixo"
               icon="arrow_downward"
             />
           </div>
@@ -41,7 +41,7 @@ const Hero = () => {
           from-sky-400 via-25% via-sky-40/40 to-65% rounded-[60px] overflow-hidden"
           >
             <img
-              src="/src/assets/images/hero-banner.png"
+              src="/src/assets/images/hero-banner3.png"
               alt="Rafael Araujo"
               className="w-full"
               width={656}
