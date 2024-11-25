@@ -129,7 +129,7 @@ const Contact = () => {
               name="message"
               id="message"
               className="text-field resize-y min-h-32 max-h-80 reveal-up"
-              placeholder="Hi!"
+              placeholder="Oi!"
               required
             ></textarea>
           </div>

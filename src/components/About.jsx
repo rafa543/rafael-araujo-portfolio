@@ -48,7 +48,7 @@ const About = () => {
 
             <img
               className="ml-auto md:w-[40px] md:h-[40px]"
-              src="/src/assets/images/logo.svg"
+              src="/src/assets/images/38bdf8"
               alt="Logo"
               width={30}
               height={30}

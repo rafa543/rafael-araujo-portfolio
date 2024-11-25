@@ -14,10 +14,10 @@ const Footer = () => {
       label: "Trabalho",
       href: "#trabalho",
     },
-    {
-      label: "Avaliações",
-      href: "#avaliações",
-    },
+    // {
+    //   label: "Avaliações",
+    //   href: "#avaliações",
+    // },
     {
       label: "Entre em contato comigo",
       href: "#contact",
@@ -102,9 +102,9 @@ const Footer = () => {
         <div className="flex items-center justify-between pt-10 mb-8">
           <a href="/" className="logo reveal-up">
             <img
-              src="/src/assets/images/logo.svg"
-              width={40}
-              height={40}
+              src="/src/assets/images/R.png"
+              width={30}
+              height={30}
               alt="Logo"
             />
           </a>

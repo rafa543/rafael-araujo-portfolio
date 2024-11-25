@@ -45,11 +45,11 @@ const Navbar = ({ navOpen }) => {
       link: "#trabalho",
       className: "nav-link",
     },
-    {
-      label: "Avaliações",
-      link: "#avaliações",
-      className: "nav-link",
-    },
+    // {
+    //   label: "Avaliações",
+    //   link: "#avaliações",
+    //   className: "nav-link",
+    // },
     {
       label: "Contact",
       link: "#contact",
