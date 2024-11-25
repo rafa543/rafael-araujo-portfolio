@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import { useState } from "react";
+import R from "@/assets/images/R.png";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -9,12 +10,7 @@ const Header = () => {
       <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid md:grid-cols-[1fr,3fr,1fr]">
         <h1>
           <a href="/" className="logo">
-            <img
-              src="/src/assets/images/R.png"
-              alt="Henry Clark"
-              width={40}
-              height={40}
-            />
+            <img src={R} alt="Rafael Araujo" width={40} height={40} />
           </a>
         </h1>
 

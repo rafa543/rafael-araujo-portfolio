@@ -1,4 +1,5 @@
 import { ButtonOutline, ButtonPrimary } from "./Button";
+import HeroBanner from "@/assets/images/hero-banner3.png";
 
 const Hero = () => {
   return (
@@ -41,7 +42,7 @@ const Hero = () => {
           from-sky-400 via-25% via-sky-40/40 to-65% rounded-[60px] overflow-hidden"
           >
             <img
-              src="/src/assets/images/hero-banner3.png"
+              src={HeroBanner}
               alt="Rafael Araujo"
               className="w-full"
               width={656}

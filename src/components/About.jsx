@@ -1,3 +1,4 @@
+import R from "@/assets/images/R.png";
 const About = () => {
   const aboutItems = [
     {
@@ -48,7 +49,7 @@ const About = () => {
 
             <img
               className="ml-auto md:w-[40px] md:h-[40px]"
-              src="/src/assets/images/38bdf8"
+              src={R}
               alt="Logo"
               width={30}
               height={30}

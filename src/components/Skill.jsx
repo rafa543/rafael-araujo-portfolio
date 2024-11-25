@@ -8,6 +8,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { GrOracle } from "react-icons/gr";
 import { SiSpringboot } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
+import figma from "@/assets/images/figma.svg";
 
 const Skill = () => {
   return (
@@ -47,12 +48,7 @@ const Skill = () => {
               <FaNodeJs className="text-7xl text-green-500" />
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4 hover:bg-zinc-700 transition-colors cursor-pointer">
-              <img
-                src="/src/assets/images/figma.svg"
-                className=""
-                width={72}
-                height={72}
-              />
+              <img src={figma} className="" width={72} height={72} />
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4 hover:bg-zinc-700 transition-colors cursor-pointer">
               <BiLogoPostgresql className="text-7xl text-sky-700" />
