@@ -17,16 +17,16 @@ const About = () => {
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
             Bem-vindo! Sou um Desenvolvedor Full Stack com ampla experiência em
-            Java, Spring Boot e React, especializado no desenvolvimento de
-            sistemas web e aplicativos móveis. Minha trajetória profissional
-            inclui papéis como Especialista em Análise e Desenvolvimento de
-            Sistemas na ETIPI e Analista de Sistemas na Secretaria da Fazenda,
-            onde tive a oportunidade de: Desenvolver e manter aplicações
-            utilizando tecnologias modernas. Migrar sistemas legados para
-            soluções mais eficientes. Criar novos sistemas que atendem às
-            necessidades dos usuários. Participar de projetos de capacitação em
-            diversas tecnologias, incluindo React e Angular. Possuo
-            conhecimentos em bancos de dados como Oracle, SQL Server e
+            Java, Spring Boot e e React/React Native, especializado no
+            desenvolvimento de sistemas web e aplicativos móveis. Minha
+            trajetória profissional inclui papéis como Especialista em Análise e
+            Desenvolvimento de Sistemas na ETIPI e Analista de Sistemas na
+            Secretaria da Fazenda, onde tive a oportunidade de: Desenvolver e
+            manter aplicações utilizando tecnologias modernas. Migrar sistemas
+            legados para soluções mais eficientes. Criar novos sistemas que
+            atendem às necessidades dos usuários. Participar de projetos de
+            capacitação em diversas tecnologias, incluindo React e Angular.
+            Possuo conhecimentos em bancos de dados como Oracle, SQL Server e
             PostgreSQL, além de experiência com o framework Spring do java.
             Minha experiência diversificada e a capacidade de trabalhar com
             grandes volumes de dados me tornam um profissional versátil, pronto

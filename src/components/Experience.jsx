@@ -20,7 +20,9 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h6>
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
+              <p className="mb-4 text-neutral-400 whitespace-pre-line">
+                {experience.description}
+              </p>
               {experience.technologies.map((tech, index) => (
                 <span
                   className="mr-2 mt-4 rounded bg-sky-400 px-2 py-1 text-sm font-medium text-zinc-950"

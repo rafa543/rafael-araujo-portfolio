@@ -9,10 +9,10 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4E03AQG7vO_vNUGbFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728056309997?e=1735776000&v=beta&t=WbNdqprFulFTCVS8XPUTTp71M0Xt-VXXgJQdLFE2Meo"
+                src="https://media.licdn.com/dms/image/v2/D4E03AQG7vO_vNUGbFA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728056309998?e=1754524800&v=beta&t=DLX6zMN-Okeg369OjYeBYHRNAPiGhuK2i7hjIWI-NY0"
                 width={40}
                 height={40}
-                alt="Henry clark portrait"
+                alt="Rafael araujo"
                 className="img-cover"
               />
             </figure>
